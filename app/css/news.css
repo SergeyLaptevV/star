@@ -1,0 +1,75 @@
+.fonNews {
+    padding: 30px 0;
+    background-color: #f3f3f3;
+}
+    .news {
+        margin: auto;
+        width: 100%;
+        min-width: 320px;
+        text-align: center;
+        background: linear-gradient(to right, #f3f3f3 , #ffffff);
+    }
+        .news > div:nth-child(1){
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: #1a2631;
+            font-size: 37px;
+            font-family: 'RobotoBold', arial;
+            letter-spacing: 6px;
+            text-shadow: -2px 4px 5px #7f7f7f;
+        }
+            .newsList {
+                margin: auto;
+                width: 100%;
+                min-width: 320px;
+                max-width: 1270px;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .newsList > div {
+                flex-grow: 1;
+            }
+
+        .themeDate{
+            margin-top: 20px;
+            margin-bottom: 16px;
+            color: #000000;
+            font-size: 13px;
+            font-family: 'RobotoRegular', arial;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+        .themeNews {
+            color: #000000;
+            font-size: 14px;
+            font-family: 'RobotoBold', arial;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+        .themeNewsContent {
+            margin-top: 5px;
+            margin-bottom: 20px;
+            color: #000000;
+            font-size: 13px;
+            font-family: 'RobotoRegular', arial;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+        .leanMore {
+            text-align: left;
+        }
+        .leanMore > button {
+            margin-bottom: 60px;
+            padding: 10px 15px;
+            color: #ffffff;
+            background-color: #000000;
+            font-size: 13px;
+            font-family: 'RobotoBlack', arial;
+            letter-spacing: 1px;
+        }
+
+

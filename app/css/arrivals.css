@@ -1,0 +1,83 @@
+.arrivals {
+    width: 100%;
+    background: linear-gradient(to right, #f3f3f3 , #ffffff);
+}
+    .newArrivals {
+        margin: auto;
+        width: 100%;
+        min-width: 320px;
+        max-width: 1270px;
+    }
+    .newArrivals > div:nth-child(1){
+        margin-bottom: 60px;
+        padding-top: 36px;
+        font-family: 'RobotoBold', arial;
+        font-size: 37px;
+        color: #1a2631;
+        text-align: center;
+        letter-spacing: 6px;
+        text-shadow: -2px 4px 5px #7f7f7f;
+    }
+        .listColumn {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+            .headProduct {
+                padding-top: 10px;
+                font-family: 'RobotoBold', arial;
+                font-size: 14px;
+                color: #000;
+                letter-spacing: 1px;
+            }
+            .listNth{
+                padding: 20px;
+            }
+            .listNth:hover .orderBySize {
+                opacity: 1;
+            }
+            .listNth:hover{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+                .price {
+                    font-family: 'RobotoRegular', arial;
+                    font-size: 14px;
+                }
+            .orderBySize {
+                opacity: 0;
+            }
+            .size {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                font-family: 'RobotoRegular', arial;
+                font-size: 14px;
+                color: #333333;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+                .sizeNumber {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .sizeNumber > div {
+                    padding: 7px 17px;
+                    border: 1px solid #e1e1e1;
+                }
+            .buy {
+                padding: 15px 0;
+                width: 100%;
+                height: 100%;
+                font-family: 'RobotoBlack', arial;
+                font-size: 14px;
+                color: #ffffff;
+                background-color: #000000;
+                letter-spacing: 1px;
+                border: 0;
+            }

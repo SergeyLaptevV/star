@@ -1,0 +1,108 @@
+@media all and (max-width: 1400px) {
+    /* start news.css */
+        .themeDate{
+            text-align: center;
+            }
+        .themeNews {
+                text-align: center;
+            }
+        .themeNewsContent {
+
+                text-align: center;
+            }
+        .leanMore {
+                text-align: center;
+            }
+    /* end news.css */
+
+    /* start footer.css */
+    .contentFooter {
+        justify-content: space-around;
+
+    }
+     .stayConnected {
+         padding-left: 0;
+    }
+     /* end footer.css */
+
+}
+@media all and (max-width: 900px) {
+    /* start main.css */
+        .carousel-indicators {
+            display: none;
+        }
+         .shopNowBtn {
+            margin-top: 0;
+             font-size: 13px;
+         }
+     /* end main.css */
+}
+
+@media all and (max-width: 700px) {
+    /* start headerS.css */
+        .help, .contNumber{
+            padding-left: 15%;
+        }
+        .logo {
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .myPurchases {
+            flex-grow: 1;
+            width: 100%;
+        }
+        .userCart {
+            justify-content: space-around;
+        }
+        .user, .cart {
+            padding-top: 10px;
+        }
+    /* end headerS.css */
+
+    /* start main.css */
+        .rectangleB{
+                justify-content: center;
+            }
+        .midSeason {
+            font-size: 13px;
+        }
+        .saleContent {
+            font-size: 13px;
+        }
+        .upTo{
+            font-size: 13px;
+        }
+        .salePercent{
+            font-size: 13px;
+        }
+    /* end main.css */
+}
+
+
+@media all and (max-width: 480px) {
+    /* start main.css */
+        .carousel-caption {
+            top: 0;
+            bottom: 50px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .midSeason {
+            font-size: 9px;
+        }
+        .saleContent {
+            font-size: 9px;
+        }
+        .upTo{
+            font-size: 9px;
+        }
+        .salePercent{
+            font-size: 9px;
+        }
+        .shopNowBtn {
+            font-size: 12px;
+        }
+    /* end main.css */
+}
